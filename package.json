@@ -1,0 +1,15 @@
+{
+  "name": "mini-yaml.cxx",
+  "version": "1.2019.7",
+  "description": "Single header YAML 1.0 C++11 serializer/deserializer; Jimmie Bergmann (2018).",
+  "keywords": ["c", "library", "yaml", "serializer", "deserializer", "header-only"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/mini-yaml.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/mini-yaml.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/mini-yaml.cxx#readme"
+}

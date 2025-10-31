@@ -1,6 +1,6 @@
 # mini-yaml
 [![Build Status](https://travis-ci.org/jimmiebergmann/mini-yaml.svg?branch=master)](https://github.com/jimmiebergmann/mini-yaml#build-status)  
-Single header YAML 1.0 C++11 serializer/deserializer.
+Single header YAML 1.0 C++11 serializer/deserializer, by [Jimmie Bergmann](https://github.com/jimmiebergmann).
 
 ## Quickstart
 #### file.txt
@@ -41,8 +41,27 @@ boolean: true
 
 See  [Best practice](https://github.com/jimmiebergmann/mini-yaml#best-practice).
 
+## Installation
+
+Run:
+```bash
+$ npm i mini-yaml.cxx
+```
+
+And then include `Yaml.hpp` as follows:
+```c
+#include "node_modules/mini-yaml.cxx/yaml/Yaml.hpp"
+```
+
+You may also want to include `Yaml.cpp` as follows:
+```c
+#ifndef __MINI_YAML_CXX__
+#define __MINI_YAML_CXX__
+#include "node_modules/mini-yaml.cxx/yaml/Yaml.cpp"
+#endif
+```
+
 ## Usage
-Put [/yaml](https://github.com/jimmiebergmann/mini-yaml/blob/master/yaml) in your project directory and simply #include "[yaml/Yaml.hpp](https://github.com/jimmiebergmann/mini-yaml/blob/master/yaml/Yaml.hpp)".
 See [examples/FirstExample.cpp](https://github.com/jimmiebergmann/mini-yaml/blob/master/examples/FirstExample.cpp) for additional examples.
 
 ## Best practice

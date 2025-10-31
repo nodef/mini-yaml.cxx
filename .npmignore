@@ -1,0 +1,6 @@
+codeblocks/
+examples/
+test/
+visualstudio/
+.gitmodules
+.travis.yml
